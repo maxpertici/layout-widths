@@ -2,25 +2,33 @@ Add custom settings in your theme.json file
 
 ````json
 {
-
     ...
 
-    "custom" : {
+	"settings" : {
+
+    	"custom" : {
 
 			"layoutWidths": {
 				
 				"widths" : {
+
+					"x-content" : {
+						"label" : "X Content",
+						"value" : "820px"						
+					},
 					
 					"wide" : {
-						"label" : "Wide Width",
-						"value" : "1340px"
+						"label" : "Wide",
+						"value" : "1280px"
 					},
-					"wider" : {
-						"label" : "Wider Width",
-						"value" : "1600px"
+					
+					"x-wide" : {
+						"label" : "X Wide",
+						"value" : "1440px"
 					},
+					
 					"full" : {
-						"label" : "Full Width",
+						"label" : "Full",
 						"value" : "none"
 					}
 				},
@@ -29,13 +37,15 @@ Add custom settings in your theme.json file
 
 					"fr-FR" : {
 
-						"wide"  : "Grande Largeur",
-						"wider" : "Plus Grande Largeur",
+						"x-content"  : "Contenu large",
+						"wide"  : "Large",
+						"x-wide" : "Très large",
 						"full"  : "Pleine largeur"
 					}
 				}
 			}
 		}
+	}
 
 }
 ```
