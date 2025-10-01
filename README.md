@@ -1,15 +1,15 @@
 # Layout Widths
 
-Plugin WordPress pour gérer les largeurs de mise en page personnalisées dans l'éditeur de blocs.
+WordPress plugin to manage custom layout widths in the block editor.
 
-## Démo
+## Demo
 
 https://github.com/user-attachments/assets/c7f93998-7923-4ee4-9850-bd7c5de6f9c0
 
 
 ## Configuration
 
-Ajoutez les paramètres personnalisés dans votre fichier `theme.json` :
+Add the custom settings to your `theme.json` file:
 
 ```json
 {
