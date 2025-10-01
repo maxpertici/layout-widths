@@ -1,0 +1,14 @@
+
+.editor-styles-wrapper {
+    opacity: 1;
+
+}
+
+.block-editor-block-toolbar__slot:first-of-type .components-dropdown-menu:first-of-type {
+    display: none;
+}
+
+
+.components-toolbar-group:has( .block-editor-block-toolbar__slot:first-of-type .components-dropdown-menu:first-child:last-child ){
+    display: none;
+}

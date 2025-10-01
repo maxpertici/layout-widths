@@ -1,0 +1,10 @@
+{
+    "name": "mxp/layout-widths",
+    "require-dev": {},
+    "autoload": {
+      "files": [],
+      "psr-4": {
+        "MXP\\LayoutWidths\\": "app/"
+      }
+    }
+  }
